@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cp -avr $PWD/slingscold.desktop /usr/share/applications/slingscold.desktop
+cp -avr $PWD/icons/slingscold-32.svg /usr/share/icons/hicolor/32x32/apps/slingscold-32.svg
+cp -avr $PWD/icons/slingscold-48.svg /usr/share/icons/hicolor/48x48/apps/slingscold-48.svg
+cp -avr $PWD/icons/slingscold-64.svg /usr/share/icons/hicolor/64x64/apps/slingscold-64.svg
+cp -avr $PWD/icons/slingscold-128.svg /usr/share/icons/hicolor/128x128/apps/slingscold-128.svg
+cp -avr slingscold /usr/local/bin/slingscold
+cp -avr slingscold_amd64 /usr/local/bin/slingscold_amd64
+
